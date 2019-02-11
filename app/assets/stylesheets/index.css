@@ -1,0 +1,523 @@
+.banner1 {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	float: left;
+	transition: .8s;
+	filter: grayscale(100%);
+	background-image: url("banner1.png");
+	background-size: 100% 100%;	
+}
+.banner2 {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	float: left;
+	transition: .8s;
+	filter: grayscale(100%);
+	background-image: url("banner2.png");
+	background-size: 100% 100%;	
+}
+.banner3 {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	float: left;
+	transition: .8s;
+	filter: grayscale(100%);
+	background-image: url("banner3.png");
+	background-size: 100% 100%;	
+}
+.message {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	margin-top: 0px;
+	padding-bottom: 200px;
+	background-color: #394854;
+}
+.message h1 {
+	text-align: center;
+	color: #AFB3B2;
+	font-family: 'Calibri';
+	font-size: 48px;
+	text-shadow: 3px 3px #21252A;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+}
+.text-center {
+	width: 50%;
+	height: 300px;
+	position: relative;
+	float: left;
+	left: 25%;
+	margin-top: 120px;
+}
+.text-center h1{
+	font-size: 24px;
+	font-family: "Calibri";
+	text-align: justify;
+	text-shadow: 1px 1px #000;
+	color: #AFB3B2;
+}
+.text-center h2 {
+	font-size: 22px;
+	font-family: "Calibri";
+	text-shadow: 1px #293039;
+	color: #21252A;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 5px;
+}
+.mask {
+	width: 50%;
+	height: 250px;
+	position: absolute;
+	float: left;
+	left: 25%;
+	margin-top: 160px;
+}
+.mask-pixel {
+	width: 10%;
+	height: 50px;
+	position: relative;
+	float: left;
+	transition: .5s;
+	filter: blur(10px) contrast(4);
+	background-color: #24292F;
+	opacity: .8;
+}
+.photos {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+}
+.photos .galery-photo {
+	width: 33.33%;
+	position: absolute;
+	float: left;
+	filter: grayscale(100%);
+	transition: .8s;
+}
+.photos #galery1 {
+	height: 400px;
+}
+.photos #galery2 {
+	left: 33.33%;
+	height: 300px;
+}
+.photos #galery3 {
+	left: 66.66%;
+	height: 600px;
+}
+.photos #galery4 {
+	margin-top: 400px;
+	height: 250px;
+}
+.photos #galery5 {
+	left: 33.33%;
+	height: 600px;
+	margin-top: 300px;
+}
+.photos #galery6 {
+	left: 66.66%;
+	height: 290px;
+	margin-top: 600px;	
+}
+.photos #galery7 {
+	margin-top: 650px;
+	height: 600px;
+}
+.photos #galery8 {
+	margin-top: 900px;
+	left: 33.33%;
+	height: 200px;
+}
+.photos #galery9 {
+	left: 66.66%;
+	margin-top: 890px;
+	height: 500px;
+}
+.photos #galery10 {
+	margin-top: 1250px;
+	height: 250px;
+}
+.photos #galery11 {
+	left: 33.33%;
+	margin-top: 1100px;
+	height: 626px;
+}
+.photos #galery12 {
+	margin-top: 1500px;
+	height: 226px;
+}
+.photos #galery13 {
+	left: 66.66%;
+	margin-top: 1390px;
+	height: 336px;
+}
+.songs {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #21252A;
+	margin-top: 1726px;
+	padding-bottom: 50px;
+}
+.songs h1 {
+	text-align: center;
+	color: #AFB3B2;
+	font-family: 'Calibri';
+	font-size: 48px;
+	text-shadow: 3px 3px #394854;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+}
+.icon {
+	position: absolute;
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+.icon i {
+	color: #AFB3B2;
+}
+.layer1 {
+	z-index: 2;
+}
+.layer1 i {
+	font-size: 48px;
+}
+
+#music1 {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+#music2 {
+	margin-top: 120px;
+	margin-left: 80%;
+}
+#music3 {
+	margin-top: 500px;
+	margin-left: 120px;
+}
+#music4 {
+	margin-top: 700px;
+	margin-left: 90%;
+}
+#music5 {
+	margin-top: 900px;
+	margin-left: 75px;
+}
+#music6 {
+	margin-top: 800px;
+	margin-left: 85%;
+}
+#music7 {
+	margin-top: 920px;
+	margin-left: 80%;
+}
+#music8 {
+	margin-top: 750px;
+	margin-left: 60px;
+}
+
+.layer2 {
+	z-index: 3;
+}
+.layer2 i {
+	font-size: 48px;
+}
+#play1 {
+	margin-top: 150px;
+	margin-left: 180px;
+}
+#play2 {
+	margin-top: 60px;
+	margin-left: 92%;
+}
+#play3 {
+	margin-top: 750px;
+	margin-left: 150px;
+}
+#play4 {
+	margin-top: 400px;
+	margin-left: 85%;
+}
+#play5 {
+	margin-top: 300px;
+	margin-left: 78%;
+}
+#play6 {
+	margin-top: 800px;
+	margin-left: 10px;
+}
+#play7 {
+	margin-top: 900px;
+	margin-left: 82%;
+}
+.layer3 {
+	z-index: 4;
+}
+.layer3 i {
+	font-size: 48px;
+}
+#head1 {
+	margin-top: 330px;
+	margin-left: 80px;
+}
+#head2 {
+	margin-top: 260px;
+	margin-left: 86%;
+}
+#head3 {
+	margin-top: 550px;
+	margin-left: 85%;
+}
+#head4 {
+	margin-top: 660px;
+	margin-left: 70px;
+}
+#head5 {
+	margin-top: 870px;
+	margin-left: 80%;
+}
+#head6 {
+	margin-top: 920px;
+	margin-left: 76%;
+}
+#head7 {
+	margin-top: 880px;
+	margin-left: 30px;
+}
+#head8 {
+	margin-top: 820px;
+	margin-left: 80%;
+}
+.songs-control {
+	position: relative;
+	float: left;
+	width: 100%;
+	transition: 1s;
+}
+.song-file {
+	width: 50%;
+	height: auto;
+	position: relative;
+	float: left;
+	margin-top: 20px;
+	padding-bottom: 30px;
+	left: 25%;
+	clear: both;
+	border: 1px solid #AFB3B2;
+	border-radius: 10px;
+	background-color: #293039;
+}
+.song-file h2 {
+	text-align: center;
+	font-size: 18px;
+	color: #AFB3B2;
+	font-family: 'Calibri';
+}
+.song-file audio {
+	width: 80%;
+	height: 40px;
+	position: relative;
+	float: left;
+	left: 10%;
+}
+.lyrics {
+	width: 50%;
+	height: 830px;
+	position: relative;
+	float: right;
+	right: 40px;
+	margin-top: 20px;
+	background-color: #AFB3B2;
+	transition: 1s;
+	border-radius: 10px; 
+	overflow: auto;
+}
+.lyrics h1 {
+	color: #24292F;
+	text-shadow: 2px 2px #394854;
+	margin-bottom: 30px;
+}
+.lyrics p {
+	text-align: justify;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 22px;
+	font-family: 'Calibri';
+	color: #394854;
+	transition: .8s;
+}
+.lyrics p:hover {
+	cursor: default;
+}
+.videos {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #AFB3B2;
+	padding-bottom: 50px;
+}
+.videos h1 {
+	text-align: center;
+	color: #394854;	
+	font-family: 'Calibri';
+	font-size: 48px;
+	text-shadow: 2px 2px #293039;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+
+}
+.videos .container-videos {
+	width: 90%;
+	height: auto;
+	position: relative;
+	float: left;
+	left: 5%;
+}
+.col-md-6 {
+	padding: 5px;
+}
+.videos iframe {
+	filter: grayscale(100%);
+	border: none;
+	transition: .8s;
+}
+.videos iframe:hover {
+	filter: grayscale(0%);
+}
+.videos iframe:onclick {
+	filter: grayscale(0%);
+}
+.schedule {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #394854;
+	padding-bottom: 50px;
+}
+.schedule h1 {
+	text-align: center;
+	font-family: 'Calibri';
+	color: #AFB3B2;
+	font-size: 48px;
+	text-shadow: 3px 3px #293039;
+}
+.schedule .date {
+	width: 70%;
+	height: 285px;
+	position: relative;
+	float: left;
+	margin-top: 40px;
+	left: 15%;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 20px;
+	transition: .8s;
+}
+.schedule .date:hover {
+	background-color: #24292F;
+	cursor: pointer;
+}
+.date i {
+	font-size: 58px;
+	position: relative;
+	color: #21252A;
+	text-shadow: 2px 2px #AFB3B2;
+}
+.schedule .date .date-text {
+	position: relative;
+	margin-top: -10px;
+	font-size: 58px;
+	color: #AFB3B2;
+}
+#chevron-down {
+	text-shadow: none;
+}
+.schedule .date h3 {
+	font-size: 28px;
+	color: #AFB3B2;
+	font-family: 'Calibri';
+}
+.contact {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #AFB3B2;
+	padding-bottom: 50px;
+}
+.contact h1	{
+	text-align: center;
+	color: #24292F;
+	font-family: 'Calibri';
+	font-size: 48px;
+	text-shadow: 2px 2px #394854;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 20px;
+}
+.contact .form-contact {
+	width: 60%;
+	height: auto;
+	position: relative;
+	float: left;
+	left: 20%;
+	margin-top: 40px;
+	padding-bottom: 30px;
+	border: 1px solid #21252A;
+	border-radius: 10px;
+}
+.contact .form-contact h3 {
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	color: #21252A;
+}
+.contact .form-contact input, textarea{
+	width: 80%;
+	height: 50px;
+	position: relative;
+	float: left;
+	left: 10%;
+	border: none;
+	color: #AFB3B2;
+	background-color: #394854;
+	font-size: 24px;
+	border-radius: 5px;
+}
+.contact .form-contact textarea {
+	width: 90%;
+	left: 5%;
+	height: 200px;
+}
+#btn-send-email {
+	width: 30%;
+	clear: both;
+	left: 35%;
+	margin-top: 50px;
+	font-family: 'Calibri';
+	background-color: #21252A;
+	color: #AFB3B2;
+	font-size: 18px;
+	transition: .8s;
+}
+#btn-send-email:hover {
+	background-color: #394854;
+	color: #AFB3B2;
+}

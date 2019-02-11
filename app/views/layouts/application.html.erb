@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robson Souza Music</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+    <header>
+      <a href="">
+      <div class="header-logo">
+          <ul>
+            <li class="smaller">
+              R
+            </li>
+            <li class=bigger>
+              S
+            </li>
+            <li class="smaller">
+              M
+            </li>
+          </ul>
+        </div>
+      </a>
+
+      <div class="btn-open-menu visible-xs visible-sm">
+        <i class="fa fa-bars"></i>
+      </div>
+      <div class="header-menu visible-md visible-lg">
+        <ul>
+          <a href="#message"><li>Mensagem</li></a>
+          <a href="#photos"><li>Fotos</li></a>
+          <a href="#songs"><li>Músicas</li></a>
+          <a href="#videos"><li>Vídeos</li></a>
+          <a href="#schedule"><li>Agenda</li></a>
+          <a href="#contact"><li>Contato</li></a>
+        </ul>
+      </div>
+      <div class="social-media visible-lg visible-md visible-sm visible-xs">
+          <a id="youtube-link" href="https://www.youtube.com/channel/UCq7DCxId1b6caMhcKdwiKng"><i id="youtube-icon" class="fa fa-youtube"></i></a>
+      </div>
+    </header>
+    <div class="mobile-mask visible-xs visible-sm visible-md">
+        
+    </div>
+    <div class="menu-mobile visible-xs visible-sm visible-md">
+      <div class="buttons-mobile row visible-xs visible-sm visible-md">
+        <a href="#message">
+          <div class="button-mobile">
+            <h1 class="visible-xs visible-sm">Mensagem</h1>
+          </div>
+        </a>
+
+        <a href="#photos">
+          <div class="button-mobile">
+            <h1 class="visible-xs visible-sm">Fotos</h1>
+          </div> 
+        </a>
+        
+        <a href="#songs">
+          <div class="button-mobile">
+            <h1 class="visible-xs visible-sm">Músicas</h1>
+          </div>
+        </a>
+        
+        <a href="#videos">
+          <div class="button-mobile">
+            <h1 class="visible-xs visible-sm">Vídeos</h1>
+          </div> 
+        </a>
+        
+        <a href="#schedule">
+          <div class="button-mobile">
+            <h1 class="visible-xs visible-sm">Agenda</h1>
+          </div> 
+        </a>
+        
+        <a href="#contact">
+          <div class="button-mobile">
+            <h1 class="visible-xs visible-sm">Contato</h1>
+          </div>  
+        </a>
+        
+      </div>
+    </div>
+    <div class="messages">
+      <% flash.each do |name, msg| %>
+        <h1><%= msg %></h1>  
+      <% end %>
+    </div>
+    <%= yield %>
+    <footer>
+      <div class="row"> 
+        <div class="col-md-footer footer-and-youtube col-md-6">
+          <div class="footer-logo">
+            <ul>
+              <li class="smaller">
+                R
+              </li>
+              <li class=bigger>
+                S
+              </li>
+              <li class="smaller" id="last-letter-logo">
+                M
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-youtube-link">
+            <a id="a-youtube" href="https://www.youtube.com/channel/UCq7DCxId1b6caMhcKdwiKng"><i id="contacts-youtube-icon" class="fa fa-youtube"></i></a>  
+          </div>
+        </div>
+        <div class="col-md-footer col-md-6">
+          <h2>Você pode entrar em contato diretamente:</h2>
+          <p><a href="tel:31993490398"><i class="fa fa-phone"></i> (31) 99349-0398</a></p><br><br>
+          <p><a href="tel:11967557928"><i class="fa fa-whatsapp"></i> (11) 96755-7928</a></p>
+          <p><a href="mailto:robson.s.music@gmail.com">robson.s.music@gmail.com</a></p>
+        </div>
+      </div>
+      
+      <h6>2019      Desenvolvido por Robson Resende</h6>
+    </footer>
+  </body>
+</html>

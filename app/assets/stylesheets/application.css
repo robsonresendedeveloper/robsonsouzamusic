@@ -1,0 +1,244 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require font-awesome
+ *= require_tree .
+ *= require_self
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #24292F;
+	position: fixed;
+	z-index: 4;
+	transition: .8s;
+}
+header .header-logo {
+	width: 150px;
+	height: 80px;
+	position: relative;
+	float: left;
+	left: 30px;
+	margin-top: 10px;
+	transition: .8s;
+	z-index: 4;
+}
+header .header-logo ul {
+	position: relative;
+	float: left;
+	left: 30px;
+	margin-top: 10px;
+	transition: .8s;
+}
+header .header-logo li {
+	display: inline;
+	color: #AFB3B2;
+	font-family: 'Calibri';
+}
+header .smaller {
+	font-size: 32px;
+}
+header .bigger {
+	position: relative;
+	font-size: 42px;
+	top: 2px;
+}
+header .social-media {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: right;
+	right: 4%;
+	margin-top: 25px;
+	transition: .8s;
+	z-index: 4;
+}
+header .social-media a {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	float: left;
+	border: 1px solid #AFB3B2;
+	border-radius: 50%;
+	transition: .5s;
+}
+header .social-media a:hover {
+	width: 70px;
+	height: 70px;
+	margin-top: -10px;
+	margin-left: -10px;
+	background-color: #394854;
+}
+header .social-media i {
+	color: #AFB3B2;
+	font-size: 32px;
+	margin-top: 8px;
+	margin-left: 10px;
+	display: center;
+	transition: .5s;
+}
+header .header-menu {
+	width: 522px;
+	height: 50px;
+	position: relative;
+	float: right;
+	right: 40px;
+	margin-top: 25px;
+	padding-left: 10px;
+	transition: .8s;
+}
+header .header-menu ul {
+	margin-top: 13px;
+}
+header .header-menu li {
+	width: 200px;
+	display: inline;
+	margin-right: 10px;
+	padding: 11px;
+	font-size: 15px;
+	font-family: "Calibri";
+	border: 1px solid #AFB3B2;
+	border-radius: 7px;
+	transition: .5s;
+}
+header .header-menu li:hover {
+	background-color: #394854;
+	padding-bottom: 20px;
+}
+header .header-menu a {
+	text-decoration: none;
+	color: #AFB3B2;
+}
+
+.messages {
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 100px;
+	float: left;
+	text-align: center;
+	background-color: #394854;
+	color: #AFB3B2;
+	font-family: "calibri";
+}
+
+footer {
+	width: 100%;
+	height: auto;
+	position: relative;
+	float: left;
+	background-color: #21252A; 
+}
+footer p {
+	position: relative;
+	float: left;
+	color: #AFB3B2;
+	left: 40px;
+	margin-top: 12px;
+	font-size: 16px;
+	font-family: 'Calibri';
+	display: inline;
+}
+footer .row {
+	width: 90%;
+	position: relative;
+	left: 5%;
+}
+footer .col-md-6 {
+	height: 300px;
+}
+footer .footer-logo {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #AFB3B2;
+	font-family: 'Calibri';
+}
+.footer-logo ul {
+	display: inline;
+}
+.footer-logo li {
+	display: inline;
+}
+.footer-logo #year {
+	position: relative;
+	top: -3px;
+}
+footer .smaller {
+	font-size: 48px;
+}
+footer .bigger {
+	position: relative;
+	font-size: 60px;
+	top: 2px;
+}
+footer .contacts-youtube-link {
+	position: relative;
+	clear: both;
+	margin-top: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contacts-youtube-link a {
+	position: relative;
+	float: left;
+	width: 110px;
+	height: 110px;
+	border: 1px solid #AFB3B2;
+	border-radius: 50%;
+	transition: .8s;
+}
+.contacts-youtube-link a:hover {
+	width: 150px;
+	height: 150px;
+	background-color: #394854;
+}
+.contacts-youtube-link i {
+	font-size: 76px;
+	margin-top: 13px;
+	color: #AFB3B2;
+	transition: .8s;
+}
+footer h2 {
+	text-align: center;
+	font-family: 'Calibri';
+	font-size: 26px;
+	color: #AFB3B2;
+	text-shadow: 1px 1px #394854;
+}
+footer p {
+	width: 100%;
+	left: 0px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+}
+footer a {
+	text-decoration: none;
+	color: #AFB3B2;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #AFB3B2;
+}
+footer h6 {
+	text-align: center;
+	font-family: 'Calibri';
+	color: #AFB3B2;
+}
