@@ -39,7 +39,7 @@ $("document").ready(function(){
       $(".banner3").css("margin-top", "100px");
       $(".header-logo").css("height", "50px");
       $(".header-logo").css("margin-top", "0px");
-      $(".header-logo ul").css("margin-top", "-3px");
+      $(".header-logo img").css("margin-top", "10px");
       $(".header-menu").css("margin-top", "4px");
       $(".header-menu ul").css("margin-top","15px");
       $(".social-media").css("margin-top", "5px");
@@ -71,7 +71,7 @@ $("document").ready(function(){
       $("header").css("height", "100px");
       $(".header-logo").css("height", "80px");
       $(".header-logo").css("margin-top", "10px");
-      $(".header-logo ul").css("margin-top", "10px");
+      $(".header-logo img").css("margin-top", "23px");
       $(".header-menu").css("margin-top", "25px");
       $(".header-menu ul").css("margin-top","13px");
       $(".social-media").css("margin-top", "25px");

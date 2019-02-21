@@ -35,6 +35,9 @@
 	.header-logo {
 		margin-left: -40px;
 	}
+	.header-logo img {
+		margin-top: 13px !important;
+	}
 	.buttons-mobile {
 		width: 90%;
 		height: 280px;

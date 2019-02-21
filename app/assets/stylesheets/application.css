@@ -36,6 +36,14 @@ header .header-logo {
 	transition: .8s;
 	z-index: 4;
 }
+.header-logo img {
+	position: relative;
+	float: left;
+	width: 104px;
+	height: 36px;
+	margin-left: 21px;
+	margin-top: 23px;
+}
 header .header-logo ul {
 	position: relative;
 	float: left;
@@ -169,6 +177,10 @@ footer .footer-logo {
 	align-items: center;
 	color: #AFB3B2;
 	font-family: 'Calibri';
+}
+.footer-logo img {
+	margin-top: 20px;
+	margin-bottom: 15px;
 }
 .footer-logo ul {
 	display: inline;
