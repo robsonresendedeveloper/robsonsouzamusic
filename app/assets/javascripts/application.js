@@ -114,6 +114,15 @@ $("document").ready(function(){
 		$("#youtube-icon").css("margin-left","10px");
 	});
 
+  $("#instagram-link").mouseover(function(){
+    $("#instagram-icon").css("margin-top","18px");
+    $("#instagram-icon").css("margin-left","20px");
+  });
+  $("#instagram-link").mouseout(function(){
+    $("#instagram-icon").css("margin-top","8px");
+    $("#instagram-icon").css("margin-left","10px");
+  });
+
 
 	$(".mask-pixel").mouseenter(function(){
 		$(this).css("opacity","0");
@@ -303,16 +312,6 @@ $("document").ready(function(){
   			classe.children("h3").fadeIn(800);
   		},600);
   	});
-
-    $("#a-youtube").mouseover(function(){
-      $("#a-youtube").css("margin-top","-10px");
-      $("#contacts-youtube-icon").css("margin-top","32px");
-    });
-
-    $("#a-youtube").mouseout(function(){
-      $("#a-youtube").css("margin-top","0px");
-      $("#contacts-youtube-icon").css("margin-top","13px");
-    });
 
 
     //PARALLAX EFFECTS
